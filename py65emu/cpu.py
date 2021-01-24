@@ -90,7 +90,7 @@ class CPU:
 
     def reset(self):
         self.r.reset()
-        self.mmu.reset()
+        #self.mmu.reset()
 
         self.running = True
 
